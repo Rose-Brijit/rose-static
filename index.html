@@ -1,69 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ROSE BRIJIT ABEY - Personal Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rose Brijit Abey | Portfolio</title>
+
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f9;
-      color: #333;
       margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
     }
-    .profile-card {
-      background: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-      padding: 30px;
-      max-width: 480px;
-      width: 90%;
+    nav {
+      background: #333;
+      padding: 15px;
       text-align: center;
     }
-    .name {
-      margin: 0;
-      font-size: 2rem;
-      letter-spacing: 1px;
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
     }
-    .role {
-      margin: 8px 0 20px;
-      font-size: 1.1rem;
-      color: #555;
+    section {
+      padding: 60px 20px;
+      text-align: center;
     }
-    .bio {
-      line-height: 1.6;
-      color: #444;
-    }
+    #home { background: #f4f4f9; }
+    #about { background: #e8e8ff; }
+    #skills { background: #f9f9f9; }
+    #contact { background: #e8e8ff; }
   </style>
 </head>
+
 <body>
-  <main class="profile-card">
-    <h1 class="name">ROSE BRIJIT ABEY</h1>
-    <p class="role">Web Designer</p>
-    <section>
-      <p class="bio">
-        Hello! I am Rose Brijit Abey, a passionate web designer who loves crafting clean,
-        user-friendly websites with strong visual storytelling. I blend creativity with
-        functionality to deliver modern designs.
-      </p>
-    </section>
-    <section class="skills">
-      <h3>Skills</h3>
-      <p>HTML | CSS | JavaScript | UI/UX Design</p>
-    </section>
-    <section class="education">
-      <h3>Education</h3>
-      <p>BCA Student</p>
-    </section>
-    <section class="contact">
-      <h3>Contact</h3>
-      <p>Email: rosebrijit03@gmail.com</p>
-    </section>
-  </main>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="home">
+    <h1>ROSE BRIJIT ABEY</h1>
+    <p>Web Designer</p>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web designer who creates clean and user-friendly websites.
+      I focus on modern design and good user experience.
+    </p>
+  </section>
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="rosebrijit03@gmail.com">rosebrijit03@gmail.com</p>
+    <p>LinkedIn <a href="www.linkedin.com/in/rose-brijit-abey-b9a1b034b">www.linkedin.com/in/rose-brijit-abey-b9a1b034b</p>
+  </section>
 </body>
 </html>
